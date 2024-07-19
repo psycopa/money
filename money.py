@@ -17,6 +17,7 @@ def print_colored(text, color=Fore.WHITE):
 
 # Fungsi untuk mencetak tanda pengenal di setiap perulangan
 def print_identifier():
+    print_colored("Ki Kanzoet", Fore.GREEN)
     print_colored("SEMOGA ANDA SENANG", Fore.GREEN)
     print()  # Menambahkan baris baru agar tidak terlalu dekat
 
